@@ -23,7 +23,7 @@
 #define FOD_UI_PATH "/sys/devices/platform/soc/soc:qcom,dsi-display-primary/fod_ui"
 
 namespace vendor {
-namespace lineage {
+namespace mokee {
 namespace biometrics {
 namespace fingerprint {
 namespace inscreen {
@@ -145,5 +145,5 @@ Return<int32_t> FingerprintInscreen::getSize() {
 }  // namespace inscreen
 }  // namespace fingerprint
 }  // namespace biometrics
-}  // namespace lineage
+}  // namespace mokee
 }  // namespace vendor
